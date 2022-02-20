@@ -188,6 +188,7 @@ divLinks.style.flexDirection = 'column';
 for (let link of linksArr){
 
     let href = document.createElement('a');
+    href.setAttribute('href', '#');
     href.setAttribute('target', '_blank');
     href.innerText = link;
     href.style.display = 'flex';
